@@ -32,3 +32,23 @@ img {
     margin-right: auto;
     width: 250px;
   }
+
+div{
+    min-height: 125px flex; /*may not need the flex*/
+    padding: 20px 20px 20px 20px;
+    border:3px solid #FFFFFF;
+}
+
+.intro{
+    border-radius:15px;
+    margin-top: 15px;
+    line-height: 2.0;
+}
+
+.red{
+    background-color:#ff0000;
+    text-align: right;
+    margin-left:50px;
+    border-bottom:2px;
+    border-left:5px;
+}
