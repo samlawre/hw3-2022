@@ -34,41 +34,44 @@ img {
   }
 
 div{
-    min-height: 125px flex; /*may not need the flex*/
+    min-height: 125px;
     padding: 20px 20px 20px 20px;
     border:3px solid #FFFFFF;
 }
 
-.intro{
-    border-radius:15px;
+.introduction{
+    border-radius: 15px 15px 15px 15px;
     margin-top: 15px;
-    line-height: 2.0;
+    line-height: 2;
 }
 
 .red{
     background-color:#ff0000;
     text-align: right;
     margin-left:50px;
-    border-bottom:2px;
-    border-left:5px;
+    border-top:2px;
+    border-right:5px;
 }
 
 .blue{
+    color:#C4C4C4;
     background-color: #0000FF;
     text-align:left;
     margin-right:50px;
-    border-right:5px;
-    border-top:2px;
+    border-left:5px;
+    border-bottom:2px;
+}
+
+.blue h2{
     color:#C4C4C4;
-    /*how to make h2 also the C4C4C4?*/
 }
 
 .yellow{
     background-color: #FFFF00;
     text-align: right;
     margin-left: 50px;
-    border-bottom:2px;
-    border-left: 5px;
+    border-top:2px;
+    border-right: 5px;
     color:#707070
 }
 
@@ -76,8 +79,8 @@ div{
     background-color: #008500;
     text-align: left;
     margin-right:50px;
-    border-right:5px;
-    border-top:2px;
+    border-left:5px;
+    border-bottom:2px;
 }
 
 footer{
