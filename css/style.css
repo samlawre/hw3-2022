@@ -45,7 +45,7 @@ div{
     line-height: 2;
 }
 
-.red{
+div.red{
     background-color:#ff0000;
     text-align: right;
     margin-left:50px;
@@ -53,7 +53,7 @@ div{
     border-right:5px;
 }
 
-.blue{
+div.blue{
     color:#C4C4C4;
     background-color: #0000FF;
     text-align:left;
@@ -62,11 +62,11 @@ div{
     border-bottom:2px;
 }
 
-.blue h2{
+div.blue h2{
     color:#C4C4C4;
 }
 
-.yellow{
+div.yellow{
     background-color: #FFFF00;
     text-align: right;
     margin-left: 50px;
@@ -75,7 +75,7 @@ div{
     color:#707070
 }
 
-.green{
+div.green{
     background-color: #008500;
     text-align: left;
     margin-right:50px;
